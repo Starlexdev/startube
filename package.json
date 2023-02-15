@@ -1,0 +1,34 @@
+{
+  "name": "ytmous",
+  "version": "2.0.0",
+  "main": "index.js",
+  "license": "CC0-v1.0",
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "m3u8stream": "^0.8.4",
+    "miniget": "4.x",
+    "ytdl-core": "4.x",
+    "ytpl": "^2.x",
+    "ytsr": "^3.x"
+  },
+  "description": "A anonymous Youtube that does not spy on you.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yonle/ytmous.git"
+  },
+  "author": "AlyxGoD",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/Yonle/ytmous/issues"
+  },
+  "homepage": "https://github.com/Yonle/ytmous#readme",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube"
+  ]
+}
